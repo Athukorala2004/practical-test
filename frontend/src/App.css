@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #222;
+}
+
+.item-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-form input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.item-form button {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.item-form button:hover {
+  background: #0056b3;
+}
+
+.item-list {
+  margin-top: 30px;
+}
+
+.item-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.item-card h3 {
+  margin: 0 0 8px;
+}
+
+.item-card p {
+  margin: 4px 0;
+}
+
+.item-card button {
+  padding: 10px 14px;
+  border: none;
+  background: crimson;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.item-card button:hover {
+  background: darkred;
+}
